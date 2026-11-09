@@ -29,7 +29,7 @@ public class UserServiceTest {
         assertTrue(userRepository.existsByUsername(username));
     }
 
-    //@Test
+    @Test
     void registeredUserCanLogin(){
 
     }

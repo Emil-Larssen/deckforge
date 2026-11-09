@@ -20,4 +20,12 @@ public class User {
         this.username = username;
         this.passwordHash = passwordHash;
     }
+
+
+    public String getUsername() {
+        return username;
+    }
+    public String getPasswordHash() {
+        return passwordHash;
+    }
 }
